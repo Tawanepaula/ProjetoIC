@@ -1,0 +1,11 @@
+.btnleito {
+    margin-top: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border: 1px solid #f543a8;
+    background-color: #fdc1d2;
+    text-align: center;
+    line-height: 100px;
+}
