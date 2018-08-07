@@ -82,7 +82,7 @@
                                     <select>
                                         <option value="" disabled selected>Status Neonato</option>
                                         <option value="1">Alta</option>
-                                        <option value="2">Interdado</option>
+                                        <option value="2">Internado</option>
                                         <option value="3">Óbito</option>
                                         <option value="3">Suspenso</option>
                                     </select>
@@ -210,6 +210,8 @@
 
 
 <script>
+
+    // Inicializador SELECT //
 document.addEventListener('DOMContentLoaded', function() {
 var elems = document.querySelectorAll('select');
 var instances = M.FormSelect.init(elems, options);
@@ -221,6 +223,7 @@ $(document).ready(function(){
 $('select').formSelect();
 });
 
+<!-- Inicializador DatePicker -->
 document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.datepicker');
     var instances = M.Datepicker.init(elems, options);
