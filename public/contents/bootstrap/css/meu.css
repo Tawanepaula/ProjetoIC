@@ -1,11 +1,44 @@
 .btnleito {
-    margin-top: 10px;
+    margin-top: 20px;
     border-radius: 50%;
     display: inline-block;
-    height: 100px;
-    width: 100px;
+    height: 100%;
+    width:  100%;
     border: 1px solid #f543a8;
     background-color: #fdc1d2;
     text-align: center;
-    line-height: 100px;
+    line-height: 150px;
+}
+
+.btnmodalleito {
+    color: #f50b9f;
+    border: 1px solid #fdc1d2
+}
+
+.lblleito {
+    font-size: 1rem;
+}
+
+.modalleito {
+    height: 80%;
+    max-height: 100%;
+    width: 80%;
+}
+
+.containerleito {
+    width: 70%;
+}
+
+.spanleito {
+    margin-top: 20px;
+}
+
+.rowleito {
+    margin-left: 5rem;
+    margin-right: -5rem;
+}
+
+.rowmodal {
+    margin-left: auto;
+    margin-right: -5rem;
 }
