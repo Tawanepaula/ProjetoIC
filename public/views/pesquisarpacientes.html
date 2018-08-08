@@ -23,12 +23,13 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col s4"></div>
+                                <div class="col s2"></div>
                                 <div class="input-field col s2">
                                     <input id="rn" type="number" class="validate">
                                     <label for="rn"> Número de Prontuário:</label>
                                 </div>
-                                <a class="waves-effect waves-light btn"><i class="material-icons right">search</i>Pesquisar</a>
+                                <div class="col s4"></div>
+                                <a class="waves-effect waves-light btn btnpesquisar"><i class="material-icons right">search</i>Pesquisar</a>
                             </div>
                         </form>
                     </div>
@@ -39,75 +40,89 @@
             <div class="divider"></div>
             <h5 class="card-header center-align">Resultados</h5>
             <div class="divider"></div>
-            <table>
-                <thead>
-                <tr>
-                    <th>RN</th>
-                    <th>Neonato</th>
-                    <th>Mãe</th>
-                    <th>Status</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <td>
-                        <div class="col s4">
-                            <input type="text" class="text">
+            <div class="col s2 m12 offset-m2 l6 offset-l3">
+                <div class="card-panel grey lighten-5 z-depth-1">
+                    <div class="row">
+                        <div class=" rowleito ">
+                            <div class="col s10">
+                            <span class="black-text">
+                                <table>
+                                    <thead>
+                                    <tr>
+                                        <th>Número de Prontuário</th>
+                                        <th>Neonato</th>
+                                        <th>Mãe Neonato</th>
+                                        <th>Status</th>
+                                        <th></th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                            <tr>
+                                                <td>
+                                                    <div class="col s4">
+                                                        <input type="text" class="text">
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="input-field col s4">
+                                                        <input type="text" class="number-button">
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="input-field col s4">
+                                                        <input type="text" class="number-button">
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <p class="col s4"><label class="lblleito"> Internado </label></p>
+                                                </td>
+                                                <td>
+                                                    <a class="waves-effect waves-light btn-small"><i class="material-icons right">mode_edit</i>Editar</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <p class="col s4"><label class="lblleito"> 666666 </label></p>
+                                                </td>
+                                                <td>
+                                                    <p class="col s4"><label class="lblleito"> Tawane Paula </label></p>
+                                                </td>
+                                                <td>
+                                                    <p class="col s4"><label class="lblleito"> Tarick Lorran </label></p>
+                                                </td>
+                                                <td>
+                                                    <p class="col s4"><label class="lblleito"> Internado </label></p>
+                                                </td>
+                                                <td>
+                                                    <a class="waves-effect waves-light btn-small"><i class="material-icons right">mode_edit</i>Editar</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <p class="col s4"><label class="lblleito"> 666666 </label></p>
+                                                </td>
+                                                <td>
+                                                    <p class="col s4"><label class="lblleito"> Tawane Paula </label></p>
+                                                </td>
+                                                <td>
+                                                    <p class="col s4"><label class="lblleito"> Tarick Lorran </label></p>
+                                                </td>
+                                                <td>
+                                                    <p class="col s4"><label class="lblleito"> Alta </label></p>
+                                                </td>
+                                                <td>
+                                                    <a class="waves-effect waves-light btn-small"><i class="material-icons right">mode_edit</i>Editar</a>
+                                                </td>
+                                            </tr>
+                                    </tbody>
+                                </table>
+                            </span>
+                            </div>
                         </div>
-                    </td>
-                    <td>
-                        <div class="input-field col s4">
-                            <input type="text" class="number-button">
-                        </div>
-                    </td>
-                    <td>
-                        <div class="input-field col s4">
-                            <input type="text" class="number-button">
-                        </div>
-                    </td>
-                    <td>
-                        <p class="col s4"><label class="lblleito"> Internado </label></p>
-                    </td>
-                    <td>
-                        <a class="waves-effect waves-light btn-small"><i class="material-icons right">mode_edit</i>Editar</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p class="col s4"><label class="lblleito"> 666666 </label></p>
-                    </td>
-                    <td>
-                        <p class="col s4"><label class="lblleito"> Tawane Paula </label></p>
-                    </td>
-                    <td>
-                        <p class="col s4"><label class="lblleito"> Tarick Lorran </label></p>
-                    </td>
-                    <td>
-                        <p class="col s4"><label class="lblleito"> Internado </label></p>
-                    </td>
-                    <td>
-                        <a class="waves-effect waves-light btn-small"><i class="material-icons right">mode_edit</i>Editar</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p class="col s4"><label class="lblleito"> 666666 </label></p>
-                    </td>
-                    <td>
-                        <p class="col s4"><label class="lblleito"> Tawane Paula </label></p>
-                    </td>
-                    <td>
-                        <p class="col s4"><label class="lblleito"> Tarick Lorran </label></p>
-                    </td>
-                    <td>
-                        <p class="col s4"><label class="lblleito"> Alta </label></p>
-                    </td>
-                    <td>
-                        <a class="waves-effect waves-light btn-small"><i class="material-icons right">mode_edit</i>Editar</a>
-                    </td>
-                </tr>
-                </tbody>
-            </table>
+                    </div>
+                </div>
+            </div>
         </div>
+    </div></div>
     </div>
 </div>
