@@ -38,6 +38,11 @@ app.config(function($routeProvider, $locationProvider) {
         .when('/culturas', {
             templateUrl: './views/culturas.html',
             controller: 'mainController'
+        })
+
+        .when('/login', {
+            templateUrl: './views/login.html',
+            controller: 'mainController'
         });
 
 
