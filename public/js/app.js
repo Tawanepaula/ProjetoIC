@@ -35,11 +35,6 @@ app.config(function($routeProvider, $locationProvider) {
             controller: 'mainController'
         })
 
-        .when('/antimicrobianos', {
-            templateUrl: './views/antimicrobianos.html',
-            controller: 'mainController'
-        })
-
         .when('/culturas', {
             templateUrl: './views/culturas.html',
             controller: 'mainController'
